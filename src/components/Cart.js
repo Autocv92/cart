@@ -43,6 +43,7 @@ function Cart() {
   };
 
   const increment = (id) => {
+    // I will update this function
     setCount(count + 1);
   };
 
