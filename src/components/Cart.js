@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
-import axios from "axios";
-import { useNavigate, useParams } from "react-router-dom";
-import CartItems from "./CartItems";
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
+import { useNavigate, useParams } from 'react-router-dom';
+import CartItems from './CartItems';
 
 function Cart() {
   const [cartProducts, setCartProduct] = useState([]);
@@ -27,9 +27,9 @@ function Cart() {
     axios.delete(`http://localhost:3004/cart/${id}`).then((response) => {
       console.log(response);
       if (response.status === 200) {
-        navigate("/productpage/1");
+        navigate('/productpage/1');
 
-        alert(" Remove to Cart");
+        alert(' Remove to Cart');
       }
     });
   };
@@ -43,6 +43,7 @@ function Cart() {
   };
 
   const increment = (id) => {
+    // I will update this function
     setCount(count + 1);
   };
 
