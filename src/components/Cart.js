@@ -43,10 +43,7 @@ function Cart() {
   };
 
   const increment = (id) => {
-    const qty = { [id]: 1 };
-    setCount((preState) => {
-      return { ...preState, ...qty };
-    });
+    setCount(count + 1);
   };
 
   return (
