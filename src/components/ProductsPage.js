@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
-import axios from "axios";
-import { useNavigate, useParams } from "react-router-dom";
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
+import { useNavigate, useParams } from 'react-router-dom';
 
 function ProductsPage() {
   const navigate = useNavigate();
@@ -25,9 +25,9 @@ function ProductsPage() {
       price: price,
     };
 
-    axios.post("http://localhost:3004/cart", payload).then((response) => {
+    axios.post('http://localhost:3004/cart', payload).then((response) => {
       if (response.status === 201) {
-        alert("Add to Cart");
+        alert('Add to Cart');
       }
     });
   };

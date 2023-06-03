@@ -1,6 +1,6 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "./pages.css";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './pages.css';
 
 function Header() {
   return (

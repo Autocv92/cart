@@ -1,6 +1,6 @@
-import React from "react";
-import { useState } from "react";
-import OrderSummery from "./OrderSummery";
+import React from 'react';
+import { useState } from 'react';
+import OrderSummery from './OrderSummery';
 
 function CartItems({
   cartItem,

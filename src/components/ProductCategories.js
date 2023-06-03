@@ -1,13 +1,13 @@
-import React, { useEffect, useState } from "react";
-import axios from "axios";
-import { Link } from "react-router-dom";
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 function ProductCategories() {
   const [productCategories, setProductCategories] = useState([]);
 
   useEffect(() => {
     axios
-      .get("http://localhost:3004/categories")
+      .get('http://localhost:3004/categories')
       .then((res) => setProductCategories(res.data));
   }, []);
 
