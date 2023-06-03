@@ -1,0 +1,150 @@
+/*   Header */
+
+.section-manu-bar {
+  max-width: 100%;
+  height: 30px;
+  text-decoration: none;
+}
+
+.manu-bar ul {
+  background-color: rgb(25, 189, 83);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  margin-left: 0px;
+  text-decoration: none;
+}
+.manu-bar ul li {
+  margin-left: 20px;
+  padding: 10px;
+}
+
+/* Home page /// */
+
+.home {
+  margin-top: 0px;
+  height: 200px;
+  max-width: 100%;
+  background-color: rgb(21, 79, 130);
+}
+
+/* Product Categories */
+
+.section-cart {
+  justify-content: space-between;
+  height: 50px;
+  max-width: 100%;
+  background-color: aqua;
+  text-align: center;
+  display: flex;
+  margin-top: 20px;
+}
+.article-cart {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+/* Product page  */
+
+.section {
+  background-color: blueviolet;
+  max-width: 100%;
+  height: 550px;
+}
+.section-products-page {
+  display: flex;
+  /* background-color: aqua; */
+  text-align: center;
+  height: 500px;
+  max-width: 100%;
+}
+
+.products-cart {
+  margin-top: 50px;
+}
+.article-products-page {
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 350px;
+  width: 300px;
+  background-color: orange;
+  border: 2 px solid black;
+  border-radius: 10px;
+}
+.article-products-page img {
+  height: 150px;
+  width: 150px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.products-btn button {
+  background-color: greenyellow;
+  padding: 5px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+/*   footer  */
+
+.footer {
+  height: 300px;
+  max-width: 100%;
+  background-color: rgb(113, 69, 69);
+}
+
+.footer ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer ul li {
+  display: flex;
+  margin-left: 130px;
+}
+/*    cart details */
+
+.section-product {
+  background-color: rgb(128, 113, 123);
+  max-width: 100%;
+  height: 650px;
+  margin-top: 30px;
+}
+
+.section-products-detail {
+  display: flex;
+
+  text-align: center;
+  height: 500px;
+  max-width: 100%;
+}
+.products-detail-cart {
+  margin-top: 50px;
+}
+
+.article-products-detail {
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 350px;
+  width: 300px;
+  background-color: orange;
+  border: 2 px solid black;
+  border-radius: 10px;
+}
+.article-products-detail img {
+  height: 150px;
+  width: 150px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+/*   login page */
+
+.login {
+  margin-top: 50px;
+  height: 150px;
+  width: 200px;
+  background-color: aquamarine;
+  border: 2px solid black;
+  margin-left: 250px;
+}
